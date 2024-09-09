@@ -172,7 +172,7 @@ Last change:27 June 2023
      padding-left: 1.2rem!important;
 }
  .nav-item{
-     border-radius:70px;
+     border-radius:35px;
      transition: all .2s ease-in-out;
 }
  .navbar .nav-item:focus .dropdown.show{
@@ -213,12 +213,12 @@ Last change:27 June 2023
 }
 /* navbar brand */
  .navbar-brand{
-     line-height: 20px;
+     line-height: 10px;
      margin-top: 0px;
 }
  .navbar-brand span{
      font-family:'Quicksand', sans-serif;
-     font-size:40px;
+     font-size:25px;
      text-transform:uppercase;
      font-weight:700;
      color:#fff!important;
@@ -748,6 +748,12 @@ Last change:27 June 2023
  #owl-gallery.owl-carousel .owl-stage-outer {
      padding: 30px 0px 30px 0px;
 }
+#carouselHero .carousel-item{  
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    height:50vh;
+  }
 #gallery-isotope{
 	    overflow: hidden;
 }
@@ -1605,10 +1611,10 @@ select.form-control {
          font-size: 2.1em!important;
     }
      .navbar-brand span {
-         font-size:30px;
+         font-size:20px;
     }
      .navbar-brand i {
-         font-size:40px;
+         font-size:30px;
     }
      .navbar-collapse.show, .navbar-collapse {
          max-height: 300px !important;
@@ -1663,8 +1669,8 @@ select.form-control {
     }
     /* section */
      section {
-         padding-top: 40px;
-         padding-bottom: 40px;
+         padding-top: 20px;
+         padding-bottom: 20px;
     }
      .section-heading {
          margin-bottom: 40px;
@@ -1673,6 +1679,14 @@ select.form-control {
          font-size: 40px;
     }
     /* owl carousel navigation on top */
+    .carousel-caption {
+        position: absolute;
+        bottom: 50px;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+      }
      .owl-nav {
          margin: 0 auto;
          top: 0px;
@@ -1868,7 +1882,9 @@ select.form-control {
          top:0;
          position: relative;
     }
-   
+
+    
+    
 }
 /* Extra large devices (large desktops, 1920px or more) */
  @media (min-width: 1920px) {
