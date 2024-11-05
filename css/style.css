@@ -136,7 +136,7 @@
 }
 /* Preloader icon */
  .spinner .bounce1:after {
-     content: "\f112";
+     content: "\f189";
      position: absolute;
      font-family: "flaticon";
      font-size: 40px;
